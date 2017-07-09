@@ -1,0 +1,23 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EmailDemo", "EmailDemo\EmailDemo.csproj", "{091D68B2-86CC-41E6-899D-71317A7DD964}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Email.Toolkit", "Email.Toolkit\Email.Toolkit.csproj", "{66B07BD5-54C1-46C4-9AC1-58D784FE8706}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{091D68B2-86CC-41E6-899D-71317A7DD964}.Debug|x86.ActiveCfg = Debug|x86
+		{091D68B2-86CC-41E6-899D-71317A7DD964}.Debug|x86.Build.0 = Debug|x86
+		{091D68B2-86CC-41E6-899D-71317A7DD964}.Release|x86.ActiveCfg = Release|x86
+		{091D68B2-86CC-41E6-899D-71317A7DD964}.Release|x86.Build.0 = Release|x86
+		{66B07BD5-54C1-46C4-9AC1-58D784FE8706}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{66B07BD5-54C1-46C4-9AC1-58D784FE8706}.Debug|x86.Build.0 = Debug|Any CPU
+		{66B07BD5-54C1-46C4-9AC1-58D784FE8706}.Release|x86.ActiveCfg = Release|Any CPU
+		{66B07BD5-54C1-46C4-9AC1-58D784FE8706}.Release|x86.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
