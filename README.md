@@ -42,10 +42,15 @@ Email
     }
 2》调试也很方便：
         只需要添加自定义类部分，即可调试，不影响其他已完成的类。
-        IEmailHelper emailHelper = new EmailHelper();
+        
+	    IEmailHelper emailHelper = new EmailHelper();
             ILogFactory ilogFactory = new LogFactory();
             Tool tool = new Tool(emailHelper,ilogFactory);
-            //tool.Run();
-		    tool.RunDebug("/Users/fandong/Projects/EmailSendProject/EmailDemo/bin/Debug/EmailDemo.exe","EmailDemo.DemoMapper");
+            //tool.Run();	            tool.RunDebug("/Users/fandong/Projects/EmailSendProject/EmailDemo/bin/Debug/EmailDemo.exe","EmailDemo.DemoMapper");
 3》扩展方便：
        只要实现以上接口，即可轻松扩展。
+       
+4》 后续扩展，在调试的类上搭上Debug，即可调试，不需要在更改
+   其他设置
+。
+
